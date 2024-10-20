@@ -329,6 +329,7 @@ input[type=radio] {
     flex-direction: row;
     background-color: #0e2238;
     position: sticky;
+    margin-top : 30px;
 }
 
 .foot button{
