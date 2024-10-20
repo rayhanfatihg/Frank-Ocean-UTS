@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #001f3f; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #001f3f; 
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #001f3f; 
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #001f3f; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003366; 
+}
+
+form input:focus {
+    outline: none;
+    border-color: #003366;
+}
+
+form input[type="radio"]:checked + label,
+form input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
